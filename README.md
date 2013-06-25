@@ -70,7 +70,7 @@ List<Status> listaStatus = fachada.getStatusPorEspaco("id_disciplina_com_acesso_
 3. Não esquecer dos commits;*
 4. Push nas modificações;*
 5. Tudo feito é só enviar um pull request.
-*Este passo é realizado com comandos git seguido de checkout, commit e push respectivamente. Para maiores detalhes consulte a documentação do Git ou faça uma pesquisa (rápida) no Google. :p
+<p><font size=10>*Este passo é realizado com comandos git seguido de checkout, commit e push respectivamente. Para maiores detalhes consulte a documentação do Git ou faça uma pesquisa (rápida) no Google. :p</font></p>
 
 <h2>Copyright</h2>
 
