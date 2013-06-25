@@ -18,8 +18,8 @@ System.out.print("Preparando busca deste endereço web: " + fachada.getAuthorize
 System.out.println();
 System.out.print("Agora, a sua sequência pin:");
 System.out.println();
-String pin = new Scanner(System.in).nextLine(); // você pode separar os objetos aqui se achar pouco legível. =P
-fachada.iniciaCliente(pin);
+// Logo abaixo, uma sequência pin é passada como parâmetro. É do tipo String. Você também pode separar os objetos aqui se achar pouco legível. =P
+fachada.iniciaCliente(new Scanner(System.in).nextLine());
 ```
 
 <h2>Testando...</h2>
@@ -30,10 +30,10 @@ fachada.iniciaCliente(pin);
 System.out.println(fachada.getEu());
 ```
 
-<p>Faz-se necessário usar a sequencia pin uma única vez. De posse do mesmo siga o passo seguinte.</p>
+<p>Faz-se necessário usar a sequência pin uma única vez. De posse do mesmo siga o passo seguinte.</p>
 
 ```java
-FachadaDoREDU fachada = new FachadaDoREDU("sua_chave_consumidora", "sua_chave_secreta", "seu_pin");
+FachadaDoREDU fachada = new FachadaDoREDU("sua_chave_consumidora", "sua_chave_secreta", "sua_sequencia_pin");
 ```
 
 <h2>Aprofundando um pouco mais</h2>
