@@ -56,7 +56,7 @@ System.out.println(fachada.postResposta("id_status", "o_texto_da_resposta_seja_p
 <p>Aprenda a listar os tipos status de um espaço em uma mesma lista. Alguns parâmetros são opcionais, então você pode passar null para eles.</p>
 
 ```java
-List<Status> listaStatus = fachada.getStatusPorEspaco("id_disciplina_com_acesso_garantido", "Log", null); // Log é dos tipos de Status.
+List<Status> listaStatus = fachada.getStatusPorEspaco("id_disciplina_com_acesso_garantido", "Log", null); // Log é um dos tipos de Status.
   	for(Status postagens : listaStatus){
 			System.out.println(postagens);
 	}
